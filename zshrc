@@ -91,7 +91,7 @@ export PYTHONPATH="/home/njric/code/njric/data-context-and-setup-olist:$PYTHONPA
 export PYTHONPATH="/home/njric/code/njric/my-classes:$PYTHONPATH"
 
 #My custom aliases
-alias jn9="jupyter notebook --port=9000"
+alias juno9="jupyter notebook --port=9000"
 alias pyt="python"
 alias cr="code -r"
 alias juno="jupyter notebook"

@@ -12,6 +12,8 @@
 [core]
   pager = less -FRSX
   editor = code --wait
+  autocrlf = false
+  safecrlf = false
 
 [alias]
   co = checkout
