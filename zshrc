@@ -100,6 +100,7 @@ alias mygcvm='gcloud compute ssh --zone "europe-west3-c" "my-chess-vm"  --projec
 alias gaa="git add ."
 alias gcm="git commit -m"
 alias gpo="git push origin"
+alias lc="ls -GFlash --color"
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
