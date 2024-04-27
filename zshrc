@@ -102,10 +102,13 @@ alias gcm="git commit -m"
 alias gpo="git push origin"
 alias lc="ls -GFlsh --color"
 alias lca="ls -GFlash --color"
-
-[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+alias fz="fzf --preview='bat --color=always {}'"
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 export BROWSER='"/mnt/c/Program Files/Google/Chrome/Application/chrome.exe"'
 source /opt/homebrew/share/powerlevel10k/powerlevel10k.zsh-theme
+
+#fzf config
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+
