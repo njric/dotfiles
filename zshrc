@@ -97,6 +97,7 @@ alias cr="code -r"
 alias juno="jupyter notebook"
 alias ipy="ipython"
 alias mygcvm='gcloud compute ssh --zone "europe-west3-c" "my-chess-vm"  --project "sunny-ship-356009"'
+alias gst='git fetch && git status'
 alias gaa="git add ."
 alias gcm="git commit -m"
 alias gpo="git push origin"
