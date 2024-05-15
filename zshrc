@@ -91,7 +91,7 @@ export PYTHONPATH="/home/njric/code/njric/data-context-and-setup-olist:$PYTHONPA
 export PYTHONPATH="/home/njric/code/njric/my-classes:$PYTHONPATH"
 
 #My custom aliases
-alias juno9="jupyter notebook --port=9000"
+alias juno9="jupyter notebook --port=9000 --browser='chrome'"
 alias pyt="python"
 alias cr="code -r"
 alias juno="jupyter notebook"
@@ -103,6 +103,7 @@ alias gpo="git push origin"
 alias lc="ls -GFlsh --color"
 alias lca="ls -GFlash --color"
 alias fz="fzf --preview='bat --color=always {}'"
+alias jlabs="jupyter lab --browser='safari'"
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
