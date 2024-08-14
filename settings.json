@@ -85,4 +85,5 @@
     "workbench.startupEditor": "newUntitledFile",
     "workbench.panel.defaultLocation": "right",
     "workbench.colorTheme": "Default Light Modern",
+    "explorer.confirmDragAndDrop": false,
 }
