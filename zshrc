@@ -105,6 +105,7 @@ alias lc="ls -GFlsh --color"
 alias lca="ls -GFlash --color"
 alias fz="fzf --preview='bat --color=always {}'"
 alias jlabs="jupyter lab --browser='safari'"
+alias cdd="cd ~/code/njric"
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
