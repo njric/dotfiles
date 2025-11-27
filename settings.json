@@ -56,7 +56,6 @@
         "**/tmp/**": true,
         "**/vendor/**": true
     },
-    "git.enabled": false,
     "notebook.diff.ignoreMetadata": true,
     "notebook.lineNumbers": "on",
     "notebook.markup.fontSize": 13,
@@ -86,4 +85,6 @@
     "workbench.panel.defaultLocation": "right",
     "workbench.colorTheme": "Default Light Modern",
     "explorer.confirmDragAndDrop": false,
+    "git.autofetch": true,
+    "claudeCode.environmentVariables": [],
 }
