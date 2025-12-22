@@ -87,4 +87,6 @@
     "explorer.confirmDragAndDrop": false,
     "git.autofetch": true,
     "claudeCode.environmentVariables": [],
+    "claudeCode.preferredLocation": "panel",
+    "claudeCode.selectedModel": "default",
 }

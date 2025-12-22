@@ -116,7 +116,7 @@ source /opt/homebrew/share/powerlevel10k/powerlevel10k.zsh-theme
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 export FZF_COMPLETION_TRIGGER='__'
 export FZF_DEFAULT_OPTS='--preview "tree -C {} | head -200" --height=75%'
-FZF_CTRL_R_OPTS="--height 50% --preview 'echo {2..} | bat --color=always -pl sh' --preview-window 'wrap,up,5'"
+export FZF_CTRL_R_OPTS="--height 50% --preview 'echo {2..} | bat --color=always -pl sh' --preview-window 'wrap,up,5'"
 
 _fzf_comprun() {
   local command=$1
