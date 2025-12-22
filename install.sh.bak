@@ -42,18 +42,6 @@ if [ ! -d "$ZSH_PLUGINS_DIR/zsh-syntax-highlighting" ]; then
 fi
 cd "$CURRENT_DIR"
 
-# Install fzf
-echo "-----> Installing fzf..."
-if [[ `uname` =~ "Darwin" ]]; then
-  brew install fzf
-  $(brew --prefix)/opt/fzf/install --all --no-bash --no-fish
-else
-  sudo apt install -y fzf bat tree
-  # Create bat symlink (Ubuntu names it batcat)
-  mkdir -p ~/.local/bin
-  ln -sf /usr/bin/batcat ~/.local/bin/bat
-fi
-
 # Symlink VS Code settings and keybindings to the present `settings.json` and `keybindings.json` files
 # If it's a macOS
 if [[ `uname` =~ "Darwin" ]]; then
